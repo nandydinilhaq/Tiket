@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ticket</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="email_label">Email Address</string>
+    <string name="no_telp">No Telp</string>
+    <string name="mybalance">Rp</string>
+    <string name="hobby">Hobby</string>
+</resources>

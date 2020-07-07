@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "812129502177",
+    "firebase_url": "https://ticket-a1114.firebaseio.com",
+    "project_id": "ticket-a1114",
+    "storage_bucket": "ticket-a1114.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812129502177:android:157f902c2495199f6bc8a0",
+        "android_client_info": {
+          "package_name": "com.dinil.ticket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcJvUfznCUhlp2m4RTSyTETYCYurwGoWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

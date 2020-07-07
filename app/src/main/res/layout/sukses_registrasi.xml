@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sukses_registrasi">
+
+    <ImageView
+        android:id="@+id/iconsukses"
+        android:layout_width="240dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/icon_success_signup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tagline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mmedium"
+        android:text="HORE!"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconsukses" />
+
+    <TextView
+        android:id="@+id/tagline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/mlight"
+        android:gravity="center"
+        android:text="Selamat Datang di TiketSaya \n dan Nikmati keindahan Dunia!"
+        android:textColor="@color/greyprimary"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tagline1" />
+
+    <Button
+        android:id="@+id/gohome"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:background="@drawable/btn_blue_gradient"
+        android:fontFamily="@font/mmedium"
+        android:text="Jelajah Yuk!"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tagline2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
